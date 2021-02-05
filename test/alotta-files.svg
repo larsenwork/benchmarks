@@ -1,43 +1,41 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 319">
   <style>
-    .font { font-family: sans-serif; }
     .s3 { font-size: 3px; }
     .s4 { font-size: 4px; }
     .s5 { font-size: 5px; }
-    .line { stroke: #cacaca; }
-    .width { stroke-width: 0.5; }
-    .text { fill: currentColor; }
+    line { stroke: #cacaca; stroke-width: 0.5; }
+    text { fill: var(--color-text-primary); font-family: sans-serif; }
   </style>
   <circle cx="44" cy="6" r="4" fill="#cd3731"></circle>
-  <text x="44" y="14" class="font s4" text-anchor="middle">npm</text>
-  <text x="44" y="18" class="font s3" text-anchor="middle">v7.5.2</text>
+  <text x="44" y="14" class="s4" text-anchor="middle">npm</text>
+  <text x="44" y="18" class="s3" text-anchor="middle">v7.5.2</text>
   <circle cx="60" cy="6" r="4" fill="#fbae00"></circle>
-  <text x="60" y="14" class="font s4" text-anchor="middle">pnpm</text>
-  <text x="60" y="18" class="font s3" text-anchor="middle">v5.16.0</text>
+  <text x="60" y="14" class="s4" text-anchor="middle">pnpm</text>
+  <text x="60" y="18" class="s3" text-anchor="middle">v5.16.0</text>
   <circle cx="76" cy="6" r="4" fill="#248ebd"></circle>
-  <text x="76" y="14" class="font s4" text-anchor="middle">Yarn</text>
-  <text x="76" y="18" class="font s3" text-anchor="middle">v1.22.10</text>
+  <text x="76" y="14" class="s4" text-anchor="middle">Yarn</text>
+  <text x="76" y="18" class="s3" text-anchor="middle">v1.22.10</text>
   <circle cx="92" cy="6" r="4" fill="#248ebd"></circle>
-  <text x="92" y="14" class="font s4" text-anchor="middle">Yarn PnP</text>
-  <text x="92" y="18" class="font s3" text-anchor="middle">v1.22.10</text>
-  <text x="40" y="28" class="font s5 text" text-anchor="middle">0</text>
-  <text x="40" y="310" class="font s5 text" text-anchor="middle">0</text>
+  <text x="92" y="14" class="s4" text-anchor="middle">Yarn PnP</text>
+  <text x="92" y="18" class="s3" text-anchor="middle">v1.22.10</text>
+  <text x="40" y="28" class="s5" text-anchor="middle">0</text>
+  <text x="40" y="310" class="s5" text-anchor="middle">0</text>
   <line x1="90" y1="31" x2="90" y2="305" class="line width"></line>
-  <text x="90" y="28" class="font s5 text" text-anchor="middle">11</text>
-  <text x="90" y="310" class="font s5 text" text-anchor="middle">11</text>
+  <text x="90" y="28" class="s5" text-anchor="middle">11</text>
+  <text x="90" y="310" class="s5" text-anchor="middle">11</text>
   <line x1="140" y1="31" x2="140" y2="305" class="line width"></line>
-  <text x="140" y="28" class="font s5 text" text-anchor="middle">22</text>
-  <text x="140" y="310" class="font s5 text" text-anchor="middle">22</text>
+  <text x="140" y="28" class="s5" text-anchor="middle">22</text>
+  <text x="140" y="310" class="s5" text-anchor="middle">22</text>
   <line x1="190" y1="31" x2="190" y2="305" class="line width"></line>
-  <text x="190" y="28" class="font s5 text" text-anchor="middle">33</text>
-  <text x="190" y="310" class="font s5 text" text-anchor="middle">33</text>
+  <text x="190" y="28" class="s5" text-anchor="middle">33</text>
+  <text x="190" y="310" class="s5" text-anchor="middle">33</text>
   <line x1="240.00000000000003" y1="31" x2="240.00000000000003" y2="305" class="line width"></line>
-  <text x="240.00000000000003" y="28" class="font s5 text" text-anchor="middle">44</text>
-  <text x="240.00000000000003" y="310" class="font s5 text" text-anchor="middle">44</text>
+  <text x="240.00000000000003" y="28" class="s5" text-anchor="middle">44</text>
+  <text x="240.00000000000003" y="310" class="s5" text-anchor="middle">44</text>
   <line x1="290" y1="31" x2="290" y2="305" class="line width"></line>
-  <text x="290" y="28" class="font s5 text" text-anchor="middle">55</text>
-  <text x="290" y="310" class="font s5 text" text-anchor="middle">55</text>
-  <text x="290" y="20" class="font s4 text" font-style="italic" text-anchor="end">Installation time in seconds (lower is better)</text>
+  <text x="290" y="28" class="s5" text-anchor="middle">55</text>
+  <text x="290" y="310" class="s5" text-anchor="middle">55</text>
+  <text x="290" y="20" class="s4" font-style="italic" text-anchor="end">Installation time in seconds (lower is better)</text>
   <rect x="40" y="35" width="232" height="6" fill="#cd3731" rx="1" ry="1"></rect>
   <rect x="40" y="41.5" width="65" height="6" fill="#fbae00" rx="1" ry="1"></rect>
   <rect x="40" y="48" width="178" height="6" fill="#248ebd" rx="1" ry="1"></rect>
@@ -75,19 +73,19 @@
   <rect x="40" y="288" width="161" height="6" fill="#248ebd" rx="1" ry="1"></rect>
   <rect x="40" y="294.5" width="129" height="6" fill="#248ebd" rx="1" ry="1"></rect>
   <line x1="40" y1="31" x2="40" y2="305" class="line"></line>
-  <text x="38" y="44.5" class="font s4" dominant-baseline="middle" text-anchor="end">clean install</text>
-  <text x="38" y="70.5" class="font s4" dominant-baseline="middle" text-anchor="end">with cache</text>
-  <text x="38" y="74.5" class="font s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
-  <text x="38" y="78.5" class="font s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
-  <text x="38" y="102.5" class="font s4" dominant-baseline="middle" text-anchor="end">with cache</text>
-  <text x="38" y="106.5" class="font s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
-  <text x="38" y="134.5" class="font s4" dominant-baseline="middle" text-anchor="end">with cache</text>
-  <text x="38" y="164.5" class="font s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
-  <text x="38" y="192.5" class="font s4" dominant-baseline="middle" text-anchor="end">with cache</text>
-  <text x="38" y="196.5" class="font s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
-  <text x="38" y="222.5" class="font s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
-  <text x="38" y="226.5" class="font s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
-  <text x="38" y="254.5" class="font s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
-  <text x="38" y="284.5" class="font s4" dominant-baseline="middle" text-anchor="end">update</text>
-  <text x="290" y="317" class="font s4 text" text-anchor="end">Tests were run using Node.js v12.19.0</text>
+  <text x="38" y="44.5" class="s4" dominant-baseline="middle" text-anchor="end">clean install</text>
+  <text x="38" y="70.5" class="s4" dominant-baseline="middle" text-anchor="end">with cache</text>
+  <text x="38" y="74.5" class="s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
+  <text x="38" y="78.5" class="s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
+  <text x="38" y="102.5" class="s4" dominant-baseline="middle" text-anchor="end">with cache</text>
+  <text x="38" y="106.5" class="s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
+  <text x="38" y="134.5" class="s4" dominant-baseline="middle" text-anchor="end">with cache</text>
+  <text x="38" y="164.5" class="s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
+  <text x="38" y="192.5" class="s4" dominant-baseline="middle" text-anchor="end">with cache</text>
+  <text x="38" y="196.5" class="s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
+  <text x="38" y="222.5" class="s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
+  <text x="38" y="226.5" class="s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
+  <text x="38" y="254.5" class="s4" dominant-baseline="middle" text-anchor="end">with node_modules</text>
+  <text x="38" y="284.5" class="s4" dominant-baseline="middle" text-anchor="end">update</text>
+  <text x="290" y="317" class="s4" text-anchor="end">Tests were run using Node.js v12.19.0</text>
 </svg>
