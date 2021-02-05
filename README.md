@@ -12,7 +12,7 @@ Options: `all`, `npm`, `yarn`, `pnpm` ...
 
 List of package managers to benchmark (must be npm installable strings)
 
-##### `fixture` (alias `-f`) 
+##### `fixture` (alias `-f`)
 
 Type: `Array`
 
@@ -20,7 +20,7 @@ Options: `all`, `angular-quickstart`, `app-large`, `app-medium`, `ember-quicksta
 
 List of fixtures to run the given benchmarks against
 
-##### `benchmark` (alias `-b`) 
+##### `benchmark` (alias `-b`)
 
 Type: `Array`
 
@@ -28,13 +28,13 @@ Options: `all`, `clean`, `lock-only`, `cache-only`, `modules-only`, `no-lock`, `
 
 List of benchmarks to run
 
-##### `report` (alias `-r`) 
+##### `report` (alias `-r`)
 
 Type: `Boolean`
 
 Generate a text report
 
-##### `graph` (alias `-g`) 
+##### `graph` (alias `-g`)
 
 Type: `Boolean`
 
@@ -46,6 +46,6 @@ Generate a svg graph
 ./benchmark.js -m all -b all -f app-large -g
 ```
 
-<img src="https://user-images.githubusercontent.com/459713/105940574-a1d5c880-6029-11eb-8461-9b57bff84c08.png" alt="" width="100%">
+<img src="https://github.com/larsenwork/benchmarks/raw/feature/dark-mode-support/test/alotta-files.svg" alt="" width="100%">
 
 **Note:** Graph generation pulled from [pnpm/benchmarks-of-javascript-package-managers](https://github.com/pnpm/benchmarks-of-javascript-package-managers)
